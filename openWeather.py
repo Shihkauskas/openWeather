@@ -1,4 +1,5 @@
-# https://openweathermap.org/api
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
 import requests
 import sys
@@ -64,3 +65,5 @@ for day_data in data_forecast['list'][2::8]:
         ))
 
 print(' Данные на 12 часов дня')
+
+# https://openweathermap.org/api
