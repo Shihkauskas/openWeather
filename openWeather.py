@@ -1,3 +1,5 @@
+# https://openweathermap.org/api
+
 import requests
 import sys
 
@@ -8,7 +10,7 @@ params = {
     'q': 'Chelyabinsk',
     'units': 'metric',
     'lang': 'ru',
-    'appid': '11c0d3dc6093f7442898ee49d2430d20'
+    'appid': 'f189a5cf95c445791f2c022d515c1874'
 }
 
 try:
